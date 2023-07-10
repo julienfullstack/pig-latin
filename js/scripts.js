@@ -17,9 +17,9 @@ function pigLatin(str) {
   }
 }
 
-function handleFormSubmission() {
+function handleFormSubmission(event) {
   event.preventDefault();
   const str = document.getElementById("text-passage").value;
-  document.getElementById("output").innerText = newStr;
-
+  const translatedStr = pigLatin(str);
+  document.getElementById("output").innerText = translatedStr;
 }
