@@ -1,32 +1,41 @@
+# _Pig Latin Translator_
 
-Describe: if (vowels.indexOf(str[0]) > -1)
-Test: "It will determine if the string starts with a vowel"
-Code: 
-str = "hello"
- if (vowels.indexOf(str[0]) > -1) { 
-    newStr = str + "way";
-    return newStr;
-Expected output: False
+#### By _**Julien Lenaz**_
+
+#### _A webpage for translating user inputed phrases into pig latin_
+
+[GitHub Pages Site](https://julienlen.github.io/pig-latin)
+
+[Repo](https://github.com/julienlen/pig-latin.git) 
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _Java Script_
+* _Git_
+* _Java Script_
+
+## Description
+
+A simple website which uses arrays and looping to translate user input into pig Latin_
+
+## Setup/Installation Requirements
+
+* _Open folder in code editer OR_
+* _Run in browser_
 
 
-Describe: firstTwoChars
-Test: "It will return the first 2 letters of a string"
-Code: firstTwoChars("quick")
-Expected output: "qu"
+## Known Bugs
 
-Test: "It will add 'way' to the end of words that begin with a vowel."
-Code: pigLatin("a");
-Expected Output: "away"
+* _No known issues_
 
-Describe: pigLatin()
-Test: "It will add an "ay" at the end of the word that starts with a consestant"
-Code: pigLatin("hello")
-Expected Output: "helloay"
+## License
 
-Describe: pigLatin()
-Test: "It will move the qu from the beginning of a word to the end and add way"
-Input: pigLatin("quick")
-Expected Output: "ickquay"
+_[MIT](https://choosealicense.com/licenses/mit/)_
+
+Copyright (c) _2023_ _Julien Lenaz_ 
+
 
 
 
